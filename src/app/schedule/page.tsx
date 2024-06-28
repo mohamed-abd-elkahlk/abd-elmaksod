@@ -7,6 +7,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import Link from "next/link";
 import { FaLocationDot, FaSquareWhatsapp } from "react-icons/fa6";
 
 export default function page() {
@@ -54,14 +55,18 @@ export default function page() {
       </Table>
       <div className="flex justify-between mt-6 items-center">
         <p className="flex gap-3">
-          ههيا, بجوار فرن ابو عسكر
+          ههيا, العدوة بجوار فرن ابو عسكر
           <FaLocationDot className="text-3xl text-green-400" />
         </p>
         <div className="flex gap-3 items-center ">
           <FaSquareWhatsapp className="text-3xl text-green-400" />
           <div>
-            <p>01207980918</p>
-            <p>01080872555</p>
+            <Link href={"https://api.whatsapp.com/send?phone=01207980918"}>
+              <p>01207980918</p>
+            </Link>
+            <Link href={"https://api.whatsapp.com/send?phone=01080872555"}>
+              <p>01080872555</p>
+            </Link>
           </div>
         </div>
       </div>

@@ -5,7 +5,9 @@ export default function Nav() {
   return (
     <nav className="flex justify-between">
       <h1 className="text-5xl font-bold">
-        <Link href={"/"}>Mr. Abdo</Link>
+        <Link href={"/"}>
+          Mr. <span className="text-teal-500">Abdulrahman</span>
+        </Link>
       </h1>
       <ul className="flex gap-6 items-center">
         {navLink.map((link) => (
