@@ -8,7 +8,9 @@ export default function Nav() {
       <ul className="flex gap-6">
         {navLink.map((link) => (
           <li key={link.id}>
-            <Link href={""}>{link.title}</Link>
+            <Link href={""} className="hover:underline">
+              {link.title}
+            </Link>
           </li>
         ))}
       </ul>
