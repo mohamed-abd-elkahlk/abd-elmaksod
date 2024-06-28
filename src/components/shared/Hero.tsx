@@ -22,7 +22,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="flex-1">
-        <div className="rounded-full border-2 items-center justify-center overflow-hidden relative h-[360px] w-[360px] bg-yellow-400 m-auto">
+        <div className="rounded-full border-2 items-center justify-center overflow-hidden relative h-[360px] w-[360px] from-yellow-400 to-yellow-700 bg-gradient-to-tr m-auto">
           <img
             src="/avatar.png"
             alt=""

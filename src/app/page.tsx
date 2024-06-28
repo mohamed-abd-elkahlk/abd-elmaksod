@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="max-w-5xl mx-auto my-auto border-2 border-teal-400 p-3 rounded-md mt-12 ">
+    <main className="max-w-6xl mx-auto my-auto  p-3 rounded-md mt-12 ">
       <Nav />
       <Hero />
       <Footer />
