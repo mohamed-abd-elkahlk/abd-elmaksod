@@ -4,13 +4,13 @@ import Link from "next/link";
 export default function Nav() {
   return (
     <nav className="flex justify-between">
-      <h1 className="text-5xl">LOGO</h1>
-      <ul className="flex gap-6">
+      <h1 className="text-5xl font-bold">
+        <Link href={"/"}>Mr. Abdo</Link>
+      </h1>
+      <ul className="flex gap-6 items-center">
         {navLink.map((link) => (
-          <li key={link.id}>
-            <Link href={""} className="hover:underline">
-              {link.title}
-            </Link>
+          <li key={link.id} className="hover:underline">
+            <Link href={link.href}>{link.title}</Link>
           </li>
         ))}
       </ul>
