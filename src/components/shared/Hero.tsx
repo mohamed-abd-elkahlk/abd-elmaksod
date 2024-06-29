@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Button } from "../ui/button";
 export default function Hero() {
   return (
-    <section className="mt-12 flex flex-col md:flex-row items-center">
+    <section className="mt-20 flex flex-col md:flex-row items-center">
       <div className="flex flex-col flex-1">
         <h2 className="text-5xl font-bold">Hi.I'm Mr. Abdulrahman</h2>
         <h3 className="text-3xl font-bold mt-3 text-teal-500">

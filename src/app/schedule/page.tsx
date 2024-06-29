@@ -12,7 +12,7 @@ import { FaLocationDot, FaSquareWhatsapp } from "react-icons/fa6";
 
 export default function page() {
   return (
-    <section className="mt-12">
+    <section className="mt-20">
       <h2 className="text-3xl font-extrabold text-center">
         time of lessons and class
       </h2>{" "}
@@ -54,7 +54,7 @@ export default function page() {
         </TableBody>
       </Table>
       <div className="flex justify-between mt-6 items-center">
-        <p className="flex gap-3">
+        <p className="flex gap-1">
           ههيا, العدوة بجوار فرن ابو عسكر
           <FaLocationDot className="text-3xl text-green-400" />
         </p>
